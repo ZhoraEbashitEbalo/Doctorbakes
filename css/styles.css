@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+}
+
+p {
+  width: 100%;
+  padding: 1rem 2rem;
+  padding-bottom: 0.1rem;
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 1.25rem;
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.row-no-wrap {
+  flex-flow: row nowrap;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.container#content {
+  height: auto;
+}
+
+.wide-container {
+  min-width: 100%;
+  width: 100vw;
+  min-height: 100%;
+  height: 100vh;
+}
+
+.media-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+.media-container video {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+
+.pink-bg {
+  background-color: #FFD1D1;
+}
+
+
+.cream-bg {
+  background-color: #E3BA7DFF;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  padding-bottom: 5rem;
+}
+
+.nav {
+  width: 100%;
+  padding: 1rem 2rem 0;
+  z-index: 1;
+}
+
+
+.nav-links li > a:hover {
+  cursor: pointer;
+}
+
+.logo {
+  width: 140px;
+  height: auto;
+  margin-left: 10%;
+}
+
+.logo#footer-logo {
+  width: 280px;
+}
+
+.right-text {
+  margin-left: auto;
+  text-align: right;
+}
+
+.footer {
+  width: 100%;
+}
+
+#page-wrapper {
+  height: auto;
+  overflow: hidden;
+}
+
+#hero-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ontop {
+  font-family: Montserrat;
+  color: #fff;
+  padding: 4% 7% 3%;
+  position: absolute;
+  z-index: 1
+  line-height: 2rem;
+}
+
+.ontopof {
+  font-family: Montserrat;
+  color: #fff;
+  padding: 20% 15% 3%;
+  position: absolute;
+  z-index: 1
+  line-height: 2rem;
+}
+
+.btn-outline-light {
+  margin-top: 20%;
+}
+
+.nav-item, .nav-link {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.bighead {
+  font-size: 3rem;
+}
+
+.sectionhead {
+  font-size: 3rem;
+  text-align: center;
+  padding: 2% 10% 2%;
+  color: #fff;
+}
+
+.second-section {
+  padding: 4% 10% 3%;
+  text-align: center;
+  background-color: #FFD1D1;
+}
+
+.iconn {
+  font-size: 4rem;
+  color: #FFD1D1;
+  padding-bottom: 1rem;
+}
+
+.cakeimage {
+  width: 300px;
+  height: 300px;
+  padding-top: 1rem;
+}
+
+strong {
+  color: #DC143C;
+}
+
+.first-section {
+  padding: 4% 10% 3%;
+  text-align: center;
+  background-color: #7AB8FFFF;
+}
+
+pre {
+  font-family: Montserrat;
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 60%;
+  padding-top: 1rem;
+  text-align: left;
+  height: 100%;
+}
+
+h2 {
+    color: #fff;
+}
+
+#footerr {
+  background-color: #CEBFAA;
+}
